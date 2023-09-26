@@ -1,0 +1,11 @@
+{
+	"trailingComma": "none",
+	"tabWidth": 1,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"arrowParens": "avoid",
+	"importOrderParserPlugins": ["jsx", "typescript"],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}

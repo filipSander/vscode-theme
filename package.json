@@ -1,0 +1,28 @@
+{
+	"name": "noaglow",
+	"displayName": "noaglow theme",
+	"license": "UNLICENSED",
+	"description": "it's for your own use only.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=1.77.2"
+	},
+	"scripts": {
+		"build": "yarn vsce package"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "noaglow theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/noaglow theme-color-theme.json"
+			}
+		]
+	},
+	"dependencies": {
+		"@vscode/vsce": "^2.21.0"
+	}
+}
